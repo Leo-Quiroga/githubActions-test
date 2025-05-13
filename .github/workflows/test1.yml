@@ -1,11 +1,11 @@
 name: hola mundo
 
 on: [push]
-	
+
 jobs:
   hola:
-		runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-	    - name: Checkout code
-				run: echo "Hola mundo"
+      - name: Checkout code
+        run: echo "Hola mundo"
 
